@@ -2,6 +2,7 @@ import Button from "../components/Button";
 import { GoBell, GoBold, GoDatabase } from "react-icons/go";
 
 function ButtonPage() {
+  const handleClick = () => {};
   return (
     <div>
       <div>
