@@ -10,10 +10,10 @@ function Button({ children, primary, secondary, success, warning, danger, outlin
     "rounded-full": rounded,
     "bg-white": outline,
     "text-blue-700": outline && primary,
-    "text-yellow-600": outline && warning,
-    "text-gray-900": outline && secondary,
+    "text-yellow-800": outline && warning,
+    "text-gray-700": outline && secondary,
     "text-green-600": outline && success,
-    "text-red-500": outline && danger,
+    "text-red-600": outline && danger,
   });
   return (
     <button {...rest} className={classes}>
